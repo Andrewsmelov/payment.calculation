@@ -50,7 +50,7 @@ Users.propTypes = {
 
 export default compose(
   graphql(USERS_QUERY, {
-    props({ data: { loading, users } }) {
+    props({ data: { loading, users = [] } }) {
       return { loading, users }
     }
   })

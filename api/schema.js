@@ -36,8 +36,8 @@ type Subscription {
 
 schema {
   query: Query
-  #mutation: Mutation
-  #subscription: Subscription
+  mutation: Mutation
+  subscription: Subscription
 }
 
 `];
